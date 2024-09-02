@@ -22,7 +22,8 @@ class PDFToMatrix(Node):
 
         if self.image_matrix is not None:
             self.get_logger().info(f"Matrix shape: {self.image_matrix.shape}")
-            # Further processing of the matrix can be done here
+            # Visualize the matrix
+            self.visualize_matrix(self.image_matrix)
         else:
             self.get_logger().error("Failed to convert the image to a matrix.")
 
@@ -52,12 +53,10 @@ class PDFToMatrix(Node):
             self.get_logger().error(f"Error converting image to matrix: {e}")
             return None
 
-def visualize_matrix(self, matrix):
-    plt.imshow(matrix, cmap='gray')
-    plt.title('Floor Plan Matrix Visualization')
-    plt.show()
-
-
+    def visualize_matrix(self, matrix):
+        plt.imshow(matrix, cmap='gray')
+        plt.title('Floor Plan Matrix Visualization')
+        plt.show()
 
 def main(args=None):
     rclpy.init(args=args)
