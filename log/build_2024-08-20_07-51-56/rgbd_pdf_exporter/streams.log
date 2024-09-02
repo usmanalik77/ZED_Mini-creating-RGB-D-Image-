@@ -1,0 +1,24 @@
+[0.500s] Invoking command in '/home/usman/ros2_ws/src/rgbd_pdf_exporter': PYTHONPATH=/home/usman/ros2_ws/build/rgbd_pdf_exporter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usman/ros2_ws/install/rgbd_pdf_exporter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rgbd_pdf_exporter build --build-base /home/usman/ros2_ws/build/rgbd_pdf_exporter/build install --record /home/usman/ros2_ws/build/rgbd_pdf_exporter/install.log --single-version-externally-managed install_data
+[0.628s] running egg_info
+[0.628s] writing ../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info/PKG-INFO
+[0.628s] writing dependency_links to ../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info/dependency_links.txt
+[0.628s] writing entry points to ../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info/entry_points.txt
+[0.628s] writing requirements to ../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info/requires.txt
+[0.628s] writing top-level names to ../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info/top_level.txt
+[0.629s] reading manifest file '../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info/SOURCES.txt'
+[0.630s] writing manifest file '../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info/SOURCES.txt'
+[0.630s] running build
+[0.630s] running build_py
+[0.630s] copying rgbd_pdf_exporter/rgbd_pdf_exporter.py -> /home/usman/ros2_ws/build/rgbd_pdf_exporter/build/lib/rgbd_pdf_exporter
+[0.630s] running install
+[0.630s] running install_lib
+[0.630s] copying /home/usman/ros2_ws/build/rgbd_pdf_exporter/build/lib/rgbd_pdf_exporter/rgbd_pdf_exporter.py -> /home/usman/ros2_ws/install/rgbd_pdf_exporter/lib/python3.10/site-packages/rgbd_pdf_exporter
+[0.631s] byte-compiling /home/usman/ros2_ws/install/rgbd_pdf_exporter/lib/python3.10/site-packages/rgbd_pdf_exporter/rgbd_pdf_exporter.py to rgbd_pdf_exporter.cpython-310.pyc
+[0.631s] running install_data
+[0.632s] running install_egg_info
+[0.632s] removing '/home/usman/ros2_ws/install/rgbd_pdf_exporter/lib/python3.10/site-packages/rgbd_pdf_exporter-0.0.0-py3.10.egg-info' (and everything under it)
+[0.633s] Copying ../../build/rgbd_pdf_exporter/rgbd_pdf_exporter.egg-info to /home/usman/ros2_ws/install/rgbd_pdf_exporter/lib/python3.10/site-packages/rgbd_pdf_exporter-0.0.0-py3.10.egg-info
+[0.633s] running install_scripts
+[0.644s] Installing rgbd_pdf_exporter script to /home/usman/ros2_ws/install/rgbd_pdf_exporter/lib/rgbd_pdf_exporter
+[0.644s] writing list of installed files to '/home/usman/ros2_ws/build/rgbd_pdf_exporter/install.log'
+[0.656s] Invoked command in '/home/usman/ros2_ws/src/rgbd_pdf_exporter' returned '0': PYTHONPATH=/home/usman/ros2_ws/build/rgbd_pdf_exporter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usman/ros2_ws/install/rgbd_pdf_exporter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rgbd_pdf_exporter build --build-base /home/usman/ros2_ws/build/rgbd_pdf_exporter/build install --record /home/usman/ros2_ws/build/rgbd_pdf_exporter/install.log --single-version-externally-managed install_data

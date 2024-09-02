@@ -1,0 +1,65 @@
+[0.008s] Invoking command in '/home/usman/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/usman/ros2_ws/install/zed_components:/home/usman/ros2_ws/install/zed_interfaces:/home/usman/ros2_ws/install/zed_ros2:/home/usman/ros2_ws/install/zed_wrapper:/opt/ros/humble /usr/bin/cmake --build /home/usman/ros2_ws/build/zed_wrapper -- -j16 -l16
+[0.051s] -- Found CUDA: /usr/local/cuda (found suitable version "12.1", minimum required is "12") 
+[0.084s] -- Found CUDA: /usr/local/cuda (found version "12.1") 
+[0.084s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.207s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.208s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.212s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.260s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.724s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.724s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.266s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.640s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.642s] -- Configured cppcheck include dirs: /home/usman/ros2_ws/src/zed-ros2-wrapper/zed_wrapper/src
+[1.642s] -- Configured cppcheck exclude dirs and/or files: 
+[1.642s] -- Added test 'lint_cmake' to check CMake code style
+[1.642s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.643s] -- Added test 'uncrustify' to check C / C++ code style
+[1.643s] -- Configured uncrustify additional arguments: 
+[1.643s] -- Added test 'xmllint' to check XML markup files
+[1.644s] -- Configuring done
+[1.681s] -- Generating done
+[1.682s] -- Build files have been written to: /home/usman/ros2_ws/build/zed_wrapper
+[1.703s] [35m[1mConsolidate compiler generated dependencies of target zed_wrapper[0m
+[1.722s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_wrapper.dir/src/zed_wrapper.cpp.o[0m
+[4.971s] [100%] [32m[1mLinking CXX executable zed_wrapper[0m
+[5.155s] [100%] Built target zed_wrapper
+[5.163s] Invoked command in '/home/usman/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/usman/ros2_ws/install/zed_components:/home/usman/ros2_ws/install/zed_interfaces:/home/usman/ros2_ws/install/zed_ros2:/home/usman/ros2_ws/install/zed_wrapper:/opt/ros/humble /usr/bin/cmake --build /home/usman/ros2_ws/build/zed_wrapper -- -j16 -l16
+[5.183s] Invoking command in '/home/usman/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/usman/ros2_ws/install/zed_components:/home/usman/ros2_ws/install/zed_interfaces:/home/usman/ros2_ws/install/zed_ros2:/home/usman/ros2_ws/install/zed_wrapper:/opt/ros/humble /usr/bin/cmake --install /home/usman/ros2_ws/build/zed_wrapper
+[5.187s] -- Install configuration: "Release"
+[5.188s] -- Execute custom install script
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/virtual.yaml
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[5.188s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[5.189s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[5.190s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[5.190s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[5.190s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[5.190s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[5.190s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[5.190s] -- Symlinking: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[5.196s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[5.196s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[5.196s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[5.196s] -- Up-to-date symlink: /home/usman/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[5.198s] Invoked command in '/home/usman/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/usman/ros2_ws/install/zed_components:/home/usman/ros2_ws/install/zed_interfaces:/home/usman/ros2_ws/install/zed_ros2:/home/usman/ros2_ws/install/zed_wrapper:/opt/ros/humble /usr/bin/cmake --install /home/usman/ros2_ws/build/zed_wrapper

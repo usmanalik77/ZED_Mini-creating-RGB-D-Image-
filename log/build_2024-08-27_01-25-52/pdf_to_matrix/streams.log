@@ -1,0 +1,25 @@
+[1.214s] Invoking command in '/home/usman/ros2_ws/src/pdf_to_matrix': PYTHONPATH=/home/usman/ros2_ws/build/pdf_to_matrix/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usman/ros2_ws/install/pdf_to_matrix/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pdf_to_matrix build --build-base /home/usman/ros2_ws/build/pdf_to_matrix/build install --record /home/usman/ros2_ws/build/pdf_to_matrix/install.log --single-version-externally-managed install_data
+[1.498s] running egg_info
+[1.498s] writing ../../build/pdf_to_matrix/pdf_to_matrix.egg-info/PKG-INFO
+[1.499s] writing dependency_links to ../../build/pdf_to_matrix/pdf_to_matrix.egg-info/dependency_links.txt
+[1.500s] writing entry points to ../../build/pdf_to_matrix/pdf_to_matrix.egg-info/entry_points.txt
+[1.501s] writing requirements to ../../build/pdf_to_matrix/pdf_to_matrix.egg-info/requires.txt
+[1.501s] writing top-level names to ../../build/pdf_to_matrix/pdf_to_matrix.egg-info/top_level.txt
+[1.504s] reading manifest file '../../build/pdf_to_matrix/pdf_to_matrix.egg-info/SOURCES.txt'
+[1.504s] writing manifest file '../../build/pdf_to_matrix/pdf_to_matrix.egg-info/SOURCES.txt'
+[1.505s] running build
+[1.505s] running build_py
+[1.505s] copying pdf_to_matrix/pdf_to_matrix.py -> /home/usman/ros2_ws/build/pdf_to_matrix/build/lib/pdf_to_matrix
+[1.507s] running install
+[1.507s] running install_lib
+[1.508s] copying /home/usman/ros2_ws/build/pdf_to_matrix/build/lib/pdf_to_matrix/pdf_to_matrix.py -> /home/usman/ros2_ws/install/pdf_to_matrix/lib/python3.10/site-packages/pdf_to_matrix
+[1.509s] byte-compiling /home/usman/ros2_ws/install/pdf_to_matrix/lib/python3.10/site-packages/pdf_to_matrix/pdf_to_matrix.py to pdf_to_matrix.cpython-310.pyc
+[1.510s] running install_data
+[1.518s] copying package.xml -> /home/usman/ros2_ws/install/pdf_to_matrix/share/pdf_to_matrix
+[1.519s] running install_egg_info
+[1.519s] removing '/home/usman/ros2_ws/install/pdf_to_matrix/lib/python3.10/site-packages/pdf_to_matrix-0.0.0-py3.10.egg-info' (and everything under it)
+[1.519s] Copying ../../build/pdf_to_matrix/pdf_to_matrix.egg-info to /home/usman/ros2_ws/install/pdf_to_matrix/lib/python3.10/site-packages/pdf_to_matrix-0.0.0-py3.10.egg-info
+[1.519s] running install_scripts
+[1.538s] Installing pdf_to_matrix script to /home/usman/ros2_ws/install/pdf_to_matrix/lib/pdf_to_matrix
+[1.544s] writing list of installed files to '/home/usman/ros2_ws/build/pdf_to_matrix/install.log'
+[1.562s] Invoked command in '/home/usman/ros2_ws/src/pdf_to_matrix' returned '0': PYTHONPATH=/home/usman/ros2_ws/build/pdf_to_matrix/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usman/ros2_ws/install/pdf_to_matrix/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pdf_to_matrix build --build-base /home/usman/ros2_ws/build/pdf_to_matrix/build install --record /home/usman/ros2_ws/build/pdf_to_matrix/install.log --single-version-externally-managed install_data

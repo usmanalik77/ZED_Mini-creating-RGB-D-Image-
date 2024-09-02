@@ -1,0 +1,3 @@
+[console_scripts]
+rgbd_pdf_exporter = rgbd_pdf_exporter.rgbd_pdf_exporter:main
+

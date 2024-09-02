@@ -1,0 +1,23 @@
+[0.004s] Invoking command in '/home/usman/ros2_ws/build/zed_interfaces': /usr/bin/cmake /home/usman/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/ros2_ws/install/zed_interfaces
+[0.013s] [0m* ROS2 distro variable not set. Trying to figure it out...[0m
+[0.013s] [0m*** WARNING *** ROS2 distro is unknown. This package could not work correctly.[0m
+[0.019s] [31mCMake Error at CMakeLists.txt:54 (find_package):
+[0.019s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[0.019s]   project has asked CMake to find a package configuration file provided by
+[0.019s]   "ament_cmake_auto", but CMake did not find one.
+[0.019s] 
+[0.019s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[0.019s]   with any of the following names:
+[0.019s] 
+[0.019s]     ament_cmake_autoConfig.cmake
+[0.019s]     ament_cmake_auto-config.cmake
+[0.019s] 
+[0.020s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[0.020s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[0.020s]   files.  If "ament_cmake_auto" provides a separate development package or
+[0.020s]   SDK, be sure it has been installed.
+[0.020s] 
+[0.020s] [0m
+[0.020s] -- Configuring incomplete, errors occurred!
+[0.020s] See also "/home/usman/ros2_ws/build/zed_interfaces/CMakeFiles/CMakeOutput.log".
+[0.020s] Invoked command in '/home/usman/ros2_ws/build/zed_interfaces' returned '1': /usr/bin/cmake /home/usman/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/ros2_ws/install/zed_interfaces

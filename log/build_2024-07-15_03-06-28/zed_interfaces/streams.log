@@ -1,0 +1,35 @@
+[0.004s] Invoking command in '/home/usman/ros2_ws/build/zed_interfaces': /usr/bin/cmake /home/usman/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/ros2_ws/install/zed_interfaces
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.077s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.129s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.185s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.185s] [0m* ROS2 distro variable not set. Trying to figure it out...[0m
+[0.186s] [0m*** WARNING *** ROS2 distro is unknown. This package could not work correctly.[0m
+[0.191s] [31mCMake Error at CMakeLists.txt:54 (find_package):
+[0.192s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[0.192s]   project has asked CMake to find a package configuration file provided by
+[0.192s]   "ament_cmake_auto", but CMake did not find one.
+[0.192s] 
+[0.192s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[0.192s]   with any of the following names:
+[0.192s] 
+[0.192s]     ament_cmake_autoConfig.cmake
+[0.192s]     ament_cmake_auto-config.cmake
+[0.192s] 
+[0.192s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[0.192s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[0.192s]   files.  If "ament_cmake_auto" provides a separate development package or
+[0.192s]   SDK, be sure it has been installed.
+[0.192s] 
+[0.192s] [0m
+[0.192s] -- Configuring incomplete, errors occurred!
+[0.192s] See also "/home/usman/ros2_ws/build/zed_interfaces/CMakeFiles/CMakeOutput.log".
+[0.194s] Invoked command in '/home/usman/ros2_ws/build/zed_interfaces' returned '1': /usr/bin/cmake /home/usman/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/ros2_ws/install/zed_interfaces
